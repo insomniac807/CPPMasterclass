@@ -24,16 +24,16 @@ This repo contains all of the source files used to demo setting up such an envio
 - You must launch VSCode from either a Developer Command Prompt or Developer Powershell Terminal instance from this location in order to access the Visual Studio Community Edition default compiler
 
 - See Screenshots below.
-
+---
 ![Navigating from Default VSCode instance](https://i.imgur.com/410Ngzf.png)
 
-
+---
 ![Navigating To Directory in Windows File Explorer and Opening in Dev Terminal](https://i.imgur.com/pkx7Sbk.png)
 
-
+---
 ![](https://i.imgur.com/jNQCVIh.png)
 
-
+---
 ![Correct Output for Compiler now in VSCode Terminal](https://i.imgur.com/I7GRoXK.png)    
 
 ## Step 4
