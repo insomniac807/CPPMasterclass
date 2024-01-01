@@ -16,6 +16,8 @@ This repo contains all of the source and compiled files used to demo setting up 
 ## Step 3
 
 - I wanted to setup Windows terminal to open a default instance as a Developer Command Prompt with the default location being the C:\Users\[user]\source\repos directory. 
+[See here for changing default terminal instance type](https://www.thewindowsclub.com/how-to-open-customize-and-configure-windows-terminal-settings)
+[And Here for changing default directory](https://www.thewindowsclub.com/how-to-change-starting-directory-in-windows-terminal)
 
 - If you open VSCode in its default installation mode and navigate to the repos directory from there, VSCode will NOT recognise the MSCV compiler. 
 
