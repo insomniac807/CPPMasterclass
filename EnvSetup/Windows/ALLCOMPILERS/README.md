@@ -12,3 +12,9 @@
 - This is the visual studio build directory and only from here can we call the MSVC compiler
 
 ## Step 2
+
+- Create A task and copy & paste the code from the github repository for the course into the task.json file. 
+- All this does is great a build task for each of our 3 comilers in 1 file
+- This allows us to select from multiple tasks when we select "run task" from the "Terminal" drop down menu
+
+#### This course proving to be as useful for learning vscode as it is for learning C++ so far
