@@ -1,6 +1,6 @@
 # Set Up C++ Dev Env for Visual Studio In Windows with MSVC Compiler
 
-This repo contains all of the source and compiled files used to demo setting up such an enviornment
+This repo contains all of the source files used to demo setting up such an enviornment
 
 [All the code for this exercise can be found here](https://github.com/rutura/The-C-20-Masterclass-Source-Code/tree/main/02.EnvironmentSetup/1.Windows/4.V_s_CodeMsvcConfiguration)
 
