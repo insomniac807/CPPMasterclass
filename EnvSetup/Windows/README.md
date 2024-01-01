@@ -23,7 +23,7 @@ This repo contains all of the source and compiled files used to demo setting up 
 
 - See Screenshots below.
 
-![Navigating from Default VSCode instance](https://i.imgur.com/410Ngzf.png =100x100)
+![Navigating from Default VSCode instance](https://i.imgur.com/410Ngzf.png)
 
 
 ![Navigating To Directory in Windows File Explorer and Opening in Dev Terminal](https://i.imgur.com/pkx7Sbk.png)
