@@ -22,3 +22,7 @@ This repo contains all of the source and compiled files used to demo setting up 
 - You must launch VSCode from either a Developer Command Prompt or Developer Powershell Terminal instance from this location in order to access the Visual Studio Community Edition default compiler
 
 - See Screenshots below.
+
+![Navigating from Default VSCode instance](https://i.imgur.com/410Ngzf.png)
+
+
