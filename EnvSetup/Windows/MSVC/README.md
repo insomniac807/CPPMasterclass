@@ -44,9 +44,19 @@ This repo contains all of the source files used to demo setting up such an envio
   - 2. In the Search Bar Type "C/C++" and select "cl.exe Build Active File"
   - 3. This will create a new Sub Folder Called ".vscode" with a tasks.json file populated inside with data
   - 4. To follow the exercise from the course we must swap the "args" list from the tasks.json file with the args list from the exercise repository
-  - 5. From here save everything and click "view" from the title menu bar and select "view command pallette"
-  - 6. In the Command Pallette Search box type "C/C++" and from the options select "Edit Configurations (UI)"
-  - 7. From this menu scroll to the bottom and edit the C++ Standard to version 20
-  - 8. This will allow the editor to allow C++ 20 syntax highlighting and will prevent it from showing syntax errors for the example code in main.cpp
-  - 9. Now we have everything setup we can simply type "cl.exe" in the terminal and our code should compile and produce the "rooster.exe" executable
-  - 10. Finally enter ".\rooster.exe" in the terminal and check the output. The program should output "value : 3" if you did everything correctly.
+
+## Step 5
+
+- Now we want to set up the Editior (VSCode) to allow for C++ 20 standard without red sqiggly line errors  
+
+  - 1. From here save everything and click "view" from the title menu bar and select "view command pallette"
+  - 2. In the Command Pallette Search box type "C/C++" and from the options select "Edit Configurations (UI)"
+  - 3. From this menu scroll to the bottom and edit the C++ Standard to version 20
+  - 4. This will allow the editor to allow C++ 20 syntax highlighting and will prevent it from showing syntax errors for the example code in main.cpp
+
+## Step 6
+
+- Finally we Test Compile and Run Our Executable
+
+  - 1. Now we have everything setup we can simply type "cl.exe" in the terminal and our code should compile and produce the "rooster.exe" executable
+  - 2. Finally enter ".\rooster.exe" in the terminal and check the output. The program should output "value : 3" if you did everything correctly.
