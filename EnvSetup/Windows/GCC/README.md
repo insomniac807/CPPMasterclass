@@ -14,3 +14,8 @@
 10.  Select the "View" drop down menu from the title bar and select "Command Pallette"
 11. Again from Command Pallette find the "C/C++ Edit Configurations (UI)" option
 12. Scroll to the bottom and change the C++ standard option to C++20
+13. Now select the main.cpp file and make sure it is the active file open in the VSCode browser window
+14. From here select the "Terminal" drop down menu from the title bar and select "run task"
+15. The name of the task we created should appear. Select it to compile the main.cpp file using the gcc compiler as we have setup the task to do
+16. A rooster.exe file should be created in the root directory of our project which we can now run
+17. Run from the terminal. If you did everything correctly the output should be "value : 3" once more
