@@ -2,7 +2,7 @@
 
 ## Steps
 
-1. Download The Clang and GCC compilers from [this link]() and cut&paste the extracted mingw64 folder to your C:\ drive  
+1. Download The Clang and GCC compilers from [this link](https://winlibs.com/) and cut&paste the extracted mingw64 folder to your C:\ drive  
 2. Add the bin subdirectory of this folder to your system path variable
 3. Create a sub folder of the "Windows" directory in project tree called "GCC"
 4. Open new blank project in VSCode
