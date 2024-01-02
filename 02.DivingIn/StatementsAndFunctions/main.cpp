@@ -18,9 +18,9 @@ int main(int argc, char **argv)
     std::cout << "The sum of the two numbers is: " << sum << std::endl; // sum is 21
 
     sum = addNumbers(30, 21);
-    std::cout << "Sum is now : " << sum << std::endl;
+    std::cout << "Sum is now : " << sum << std::endl; // sum is 51
 
-    std::cout << "Sum is now : " << addNumbers(25,50) << std::endl;
+    std::cout << "Sum is now : " << addNumbers(25,50) << std::endl; // sum is 75
     
     return 0;
 }
