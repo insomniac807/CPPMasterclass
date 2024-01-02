@@ -1,8 +1,7 @@
-# Template Project
+# Template C++ Project
 
-### Whats in here?
+### What is this?
 
-- Just our 3 compiler tasks with the C++ 20 standard syntax highlighting for VSCode
-- Oh and a little boiler plate main() function with this README.md :\)
-
-[See here for More Background Info](https://github.com/insomniac807/CPPMasterclass/tree/master/EnvSetup/Windows)
+- Project set up to use any of the 3 compilers via VSCode Terminal Tasks
+- Also some boiler plate in a main.cpp file
+- With IntelliSense Configured to C++20 Standard for Editor Syntax Highlighting
