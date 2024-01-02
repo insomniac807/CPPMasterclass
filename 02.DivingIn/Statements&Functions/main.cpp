@@ -1,11 +1,12 @@
 #include <iostream>
 
-consteval int get_value(){
-    return 3;
-}
+int main(int argc, char **argv)
+{
+    int firstNumber = 12;
+    int secondNumber = 9;
 
-int main(){
-    constexpr int value = get_value();
-    std::cout << "value : " << value << std::endl;
+    int sum = firstNumber + secondNumber;
+
+    std::cout << "The sum of the two numbers is: " << sum << std::endl;
     return 0;
 }
