@@ -2,5 +2,6 @@
 
 ### Whats in here?
 
-- Just our 3 compiler tasks with the C++ 20 standard syntax highlighting for VSCode
-- Oh and a little boiler plate main() function with this README.md :\)
+- Simple Console Program
+- Prompts User to Enter Their Name
+- Prints Name 10 Times to the Console Using For Loop
