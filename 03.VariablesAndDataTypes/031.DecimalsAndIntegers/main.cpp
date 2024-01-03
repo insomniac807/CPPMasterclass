@@ -14,11 +14,17 @@ int main(){
     /*
         2.9 is of type double with larger range than int.ERROR or WARNING.
         If try to init in curley braces g++ compile failes
-        If init in brackets C++ will truncate everything after the decimal point 
+        If init in brackets (called functional initalisation) C++ will truncate everything after the decimal point 
             without performing a round up or down conversion
         i.e. the value of narrowing_conversion below is 2
     */
     int narrowing_conversion (2.9); 
     std::cout << narrowing_conversion << std::endl; // will print 2 to the console
+    std::cout << std::endl;
+    std::cout << elephant_count << std::endl; // random value (possible 0 depending on compiler but not safe)
+    std::cout << lion_count << std::endl; // prints 0
+    std::cout << dog_count << std::endl; // prints 7
+    std::cout << cat_count << std::endl; // prints 10
+
     return 0;
 }
