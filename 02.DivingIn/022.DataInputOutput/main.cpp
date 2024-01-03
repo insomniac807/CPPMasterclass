@@ -45,13 +45,15 @@ int main(){
     std::cout << "Please Enter Your House Number and Street Name: " << std::endl;
 
     /*
-        line 51 below blocks trailing characters from previous std::cin call
+        line 51 below blocks trailing characters from previous std::cin statement
         std::cin.clear() will not work here. Why?
     */
     std::cin.ignore(); 
     std::getline(std::cin, houseNumber);
     std::getline(std::cin, streetName);
 
-    std::cout << "Thank you " << name << "!" << std::endl << "You live at number " << houseNumber << " on " << streetName << "!" << std::endl;
+    std::cout << "Thank you " << name << "!" << std::endl 
+              << "You live at number " << houseNumber 
+              << " on " << streetName << "!" << std::endl;
     return 0;
 }
