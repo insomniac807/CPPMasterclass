@@ -26,8 +26,10 @@ int main(){
     std::cout << dog_count << std::endl; // prints 7
     std::cout << cat_count << std::endl; // prints 10
 
-    // values below should be the same as elephant_count is of type int
-    //sizeof() returns the size of the object or datatype in memory (in bytes)
+    /*
+        values below should be the same as elephant_count is of type int
+        sizeof() returns the size of the object or datatype in memory (in bytes)
+    */
     std::cout << sizeof(int) << std::endl; // prints 4 as 4 int is 4 bytes of memory
     std::cout << sizeof(elephant_count) << std::endl; // prints 4 as elephant_count is an int
 
