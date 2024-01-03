@@ -14,7 +14,7 @@ int main(){
     /*
         2.9 is of type double with larger range than int.ERROR or WARNING.
         If try to init in curley braces g++ compile failes
-        If init in brackets (called functional initalisation) C++ will truncate everything after the decimal point 
+        If init in brackets (called functional initalisation) g++ will truncate everything after the decimal point 
             without performing a round up or down conversion
         i.e. the value of narrowing_conversion below is 2
     */
@@ -25,6 +25,11 @@ int main(){
     std::cout << lion_count << std::endl; // prints 0
     std::cout << dog_count << std::endl; // prints 7
     std::cout << cat_count << std::endl; // prints 10
+
+    // values below should be the same as elephant_count is of type int
+    //sizeof() returns the size of the object or datatype in memory (in bytes)
+    std::cout << sizeof(int) << std::endl; // prints 4 as 4 int is 4 bytes of memory
+    std::cout << sizeof(elephant_count) << std::endl; // prints 4 as elephant_count is an int
 
     return 0;
 }
