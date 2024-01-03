@@ -21,11 +21,13 @@ int main(){
     int narrowing_conversion (2.9); 
     std::cout << narrowing_conversion << std::endl; // will print 2 to the console
     std::cout << std::endl;
+    //output our previous variables
     std::cout << elephant_count << std::endl; // random value (possible 0 depending on compiler but not safe)
     std::cout << lion_count << std::endl; // prints 0
     std::cout << dog_count << std::endl; // prints 7
     std::cout << cat_count << std::endl; // prints 10
-
+    std::cout << domestic_animal_count << std::endl; // prints 17
+    std::cout << std::endl;
     /*
         values below should be the same as elephant_count is of type int
         sizeof() returns the size of the object or datatype in memory (in bytes)
