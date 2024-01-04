@@ -14,7 +14,7 @@ int main(){
     result = number1 * number2;
     std::cout << "result : " << result << std::endl; // prints 14
     // Division
-    result = number2 / number1; // see output for uneven ingeteger division
+    result = number2 / number1; // uneven ingeteger division
     std::cout << "result : " << result << std::endl; //prints 3
     // Molulus
     result = number2 % number1;
