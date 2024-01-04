@@ -45,5 +45,17 @@ int main(){
         30
     */
     std::cout << "a + b * c -d/e -f + g = " << result << std::endl; 
+    std::cout << "--------------------" << std::endl;
+    result = a/b*c+d-e+f;
+    /*
+        6/3*8+9-3+2
+        2*8+9-3+2
+        16+9-3+2
+        25-3+2
+        22+2
+        24
+    */
+    std::cout << "a/b*c+d-e+f = " << result << std::endl; 
+    std::cout << "--------------------" << std::endl;
     return 0;
 }
