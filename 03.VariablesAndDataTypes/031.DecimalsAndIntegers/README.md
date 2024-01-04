@@ -16,3 +16,4 @@
 - double = 8 bytes of memory and has a precision of 15 decimal bits (can be compiler dependant). It is the recommended default type for fractional numbers
 - long double = 12 bytes of memory. Has at least the same precision as double or possibly greater decimal bit precision than double but the exact value of precision depends on the compiler implementation
 - We can use scientific notation to represent very large or very small numbers in C++
+- [Floating Point Number Representation in RAM](https://en.wikipedia.org/wiki/IEEE_754)
