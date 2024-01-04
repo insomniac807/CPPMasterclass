@@ -19,22 +19,23 @@ int main(){
         N.B. Assignment initalization (using = operator) will also truncate everthing after decimal point and store
             int value without performing round up or down operations.
     */
+   std::cout << "------------------------" << std::endl;
     int narrowing_conversion (2.9); 
-    std::cout << narrowing_conversion << std::endl; // will print 2 to the console
-    std::cout << std::endl;
+    std::cout << "narrowing_conversion : " << narrowing_conversion << std::endl; // will print 2 to the console
+    std::cout << "-----------------------" << std::endl;
     //output our previous variables
-    std::cout << elephant_count << std::endl; // random value (possible 0 depending on compiler but not safe)
-    std::cout << lion_count << std::endl; // prints 0
-    std::cout << dog_count << std::endl; // prints 7
-    std::cout << cat_count << std::endl; // prints 10
-    std::cout << domestic_animal_count << std::endl; // prints 17
-    std::cout << std::endl;
+    std::cout << "elephant_count : " << elephant_count << std::endl; // random value (possible 0 depending on compiler but not safe)
+    std::cout << "lion_count : " << lion_count << std::endl; // prints 0
+    std::cout << "dog_count : " << dog_count << std::endl; // prints 7
+    std::cout << "cat_count : " << cat_count << std::endl; // prints 10
+    std::cout << "domestic_animal_count : " << domestic_animal_count << std::endl; // prints 17
+    std::cout << "-----------------------" << std::endl;
     /*
         values below should be the same as elephant_count is of type int
         sizeof() returns the size of the object or datatype in memory (in bytes)
     */
-    std::cout << sizeof(int) << std::endl; // prints 4 as int is 4 bytes of memory
-    std::cout << sizeof(elephant_count) << std::endl; // prints 4 as elephant_count is an int
+    std::cout << "sizeof(int) : " << sizeof(int) << std::endl; // prints 4 as int is 4 bytes of memory
+    std::cout << "sizeof(elephant_count) : " << sizeof(elephant_count) << std::endl; // prints 4 as elephant_count is an int
 
 
     /* ############ INTEGER MODIFIERS ############### */
@@ -108,5 +109,23 @@ int main(){
     std::cout << "sci3 : " << sci3 << std::endl;
     std::cout << "sci4 : " << sci4 << std::endl;
     std::cout << "sci5 : " << sci5 << std::endl;
+
+    /*
+        We can divide doubles by 0 in C++
+    */
+    double x {123.456};
+    double y {}; // init to 0
+    double z {}; //
+
+    double v { x / y };
+    double w { y / z };
+
+    std::cout << "\n-----------------\n";
+    std::cout << "x : " << x << std::endl;
+    std::cout << "y : " << y << std::endl;
+    std::cout << "z : " << z << std::endl;
+    std::cout << "x/y : " << v << std::endl;
+    std::cout << "y/z : " << w << std::endl;
+    std::cout << std::endl;
     return 0;
 }

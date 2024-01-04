@@ -17,3 +17,6 @@
 - long double = 12 bytes of memory. Has at least the same precision as double or possibly greater decimal bit precision than double but the exact value of precision depends on the compiler implementation
 - We can use scientific notation to represent very large or very small numbers in C++
 - [Floating Point Number Representation in RAM](https://en.wikipedia.org/wiki/IEEE_754)
+- It is possible to divide decimal point numbers by 0 in C++ without causing compilation errors
+- Dividing a decimal point number that is not 0 by 0 will give you +- infinity
+- Dividing 0.0 by 0.0 will give you NaN (Not a Number)
