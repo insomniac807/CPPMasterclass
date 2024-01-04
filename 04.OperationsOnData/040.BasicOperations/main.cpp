@@ -90,5 +90,16 @@ int main(){
 
     /* ######### Relational Operators ########## */
     std::cout << "--------------------" << std::endl;
+    int x {45};
+    int y {60};
+    std::cout << std::boolalpha; // print true of false instead of 1 or 0 to the console
+    std::cout << "x : " << x << std::endl;
+    std::cout << "y : " << y << std::endl;
+    std::cout << "x < y : " << (x<y) << std::endl; // parenthesis important to wrap comparisons in in cout stream
+    std::cout << "x > y : " << (x>y) << std::endl;
+    std::cout << "x <= y : " << (x<=y) << std::endl;
+    std::cout << "x >= y : " << (x>=y) << std::endl;
+    std::cout << "x == y : " << (x==y) << std::endl;
+    std::cout << "x != y : " << (x!=y) << std::endl;
     return 0;
 }
