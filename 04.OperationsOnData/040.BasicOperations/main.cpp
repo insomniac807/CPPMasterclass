@@ -33,7 +33,14 @@ int main(){
     int f {2};
     int g {5};
 
-    result = a + b * c -d/e -f + g;
-    std::cout << "a + b * c -d/e -f + g = " << result << std::endl;
+    result = a + b * c -d/e -f + g; // solves to 30
+    /*
+        according to c++ operator precendence table the above calculation will be solved by all compilers as follows
+        6 + 3 * 8 -9/3 -2 + 5
+        6 + 24 -3 -2 +5
+        30 -5 +5
+        30
+    */
+    std::cout << "a + b * c -d/e -f + g = " << result << std::endl; 
     return 0;
 }
