@@ -37,8 +37,11 @@ int main(){
     /*
         according to c++ operator precendence table the above calculation will be solved by all compilers as follows
         6 + 3 * 8 -9/3 -2 + 5
+        6 + 24 -9/3 -2 + 5
         6 + 24 -3 -2 +5
-        30 -5 +5
+        30 -3 -2 +5
+        27 -2 +5
+        25 + 5
         30
     */
     std::cout << "a + b * c -d/e -f + g = " << result << std::endl; 
