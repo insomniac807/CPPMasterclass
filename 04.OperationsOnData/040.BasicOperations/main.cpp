@@ -101,5 +101,6 @@ int main(){
     std::cout << "x >= y : " << (x>=y) << std::endl;
     std::cout << "x == y : " << (x==y) << std::endl;
     std::cout << "x != y : " << (x!=y) << std::endl;
+    std::cout << "--------------------" << std::endl;
     return 0;
 }
