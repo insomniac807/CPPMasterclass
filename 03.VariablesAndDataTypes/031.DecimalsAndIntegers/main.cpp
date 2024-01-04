@@ -58,5 +58,15 @@ int main(){
     */
     unsigned int a {10000};
     // unsigned int b {-500}; //this wont compile (test it)
+
+    /*
+        3 other modifiers for integers are "short", "long" and "long long"
+        short allocates 2 bytes of memory (16 bits) for any int, signed or unsigned
+        long allocates 4 OR 8 bytes of memory (32 OR 64 bits)
+        long long allocates 8 bytes (64 bits)
+
+        These modifiers will only work for Integral types (whole number types)
+        Will not work for fractional numbers
+    */
     return 0;
 }
