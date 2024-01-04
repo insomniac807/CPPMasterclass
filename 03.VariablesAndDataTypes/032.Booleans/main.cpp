@@ -1,3 +1,7 @@
+/*
+    Simple demo of boolean operations
+*/
+
 #include <iostream>
 
 int main(){
