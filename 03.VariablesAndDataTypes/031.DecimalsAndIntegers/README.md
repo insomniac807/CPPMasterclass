@@ -12,6 +12,6 @@
 ### Fractions/Decimal Point Numbers
 - 3 types
 - float, double, long double
-- float = 4 bytes of memory and is precise to 7 places of decimal
-- double = 8 bytes of memory and is precise to 15 places of decimal and is the recommended default type for fractional numbers
+- float = 4 bytes of memory and has a precision of 7 decimal bits
+- double = 8 bytes of memory and has a precision of 15 decimal bits. It is the recommended default type for fractional numbers
 - long double = 12 bytes of memory
