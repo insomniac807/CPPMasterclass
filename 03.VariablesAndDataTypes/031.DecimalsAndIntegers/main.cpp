@@ -81,5 +81,32 @@ int main(){
     std::cout << "sizeof(short_int) : " << sizeof(short_int) << std::endl;
     std::cout << "sizeof(long_int) : " << sizeof(long_int) << std::endl;
     std::cout << "sizeof(long_long_int) : " << sizeof(long_long_int) << std::endl;
+
+
+    /* ########## Decimal Point Numbers ########## */
+
+    /*
+        We can use scientific notation to represent very large or very small numbers in c++
+        e.g. 192400023 can be represented in the following ways
+        1.92400023e8
+        e8 at the end means multiple the number before it by 10^8 (i.e. move the decimal point 8 places to the right)
+        0.00000000003498 can be represented in the following way
+        3.498e-11
+        e-11 means multiply the number by -10^11 (i.e move the decimal point 11 places to the left)
+        storing doubles using scientific notation reduces the number of bits nessecary to store the value in RAM
+    */
+    double sci1 {192400023};
+    double sci2 {1.92400023e8};
+    double sci3 {1924e8};
+    double sci4 {0.00000000003498};
+    double sci5 {3.498e-11};
+
+    std::cout << std::endl;
+    std::cout << "--------------------------\n";
+    std::cout << "sci1 : " << sci1 << std::endl;
+    std::cout << "sci2 : " << sci2 << std::endl;
+    std::cout << "sci3 : " << sci3 << std::endl;
+    std::cout << "sci4 : " << sci4 << std::endl;
+    std::cout << "sci5 : " << sci5 << std::endl;
     return 0;
 }
