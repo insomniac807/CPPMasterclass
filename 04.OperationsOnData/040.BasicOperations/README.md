@@ -15,3 +15,6 @@
 - When postfixed the value is done after the execution of the statement calling the increment/decrement
 
 ### Relational Operators
+- Pretty straightforward. All comparison operators
+- less than, greater than, less than OR equal to, greater than OR equal to, equal to, not equal to
+- <, >, <=, >=, ==, !=
