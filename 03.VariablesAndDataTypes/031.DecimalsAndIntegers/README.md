@@ -14,4 +14,4 @@
 - float, double, long double
 - float = 4 bytes of memory and has a precision of 7 decimal bits
 - double = 8 bytes of memory and has a precision of 15 decimal bits. It is the recommended default type for fractional numbers
-- long double = 12 bytes of memory
+- long double = 12 bytes of memory. Has greater decimal bit precision than double but the exact value of precision depends on the compiler
