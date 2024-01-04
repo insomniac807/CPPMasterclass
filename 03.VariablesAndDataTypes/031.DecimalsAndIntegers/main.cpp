@@ -68,5 +68,18 @@ int main(){
         These modifiers will only work for Integral types (whole number types)
         Will not work for fractional numbers
     */
+
+    short int short_int {-10};
+    unsigned long int long_int {1000000000};
+    signed long long int long_long_int {-5000000000000};
+
+    std::cout << std::endl;
+    std::cout << "short_int : " << short_int << std::endl;
+    std::cout << "long_int : " << long_int << std::endl;
+    std::cout << "long_long_int : " << long_long_int << std::endl;
+
+    std::cout << "sizeof(short_int) : " << sizeof(short_int) << std::endl;
+    std::cout << "sizeof(long_int) : " << sizeof(long_int) << std::endl;
+    std::cout << "sizeof(long_long_int) : " << sizeof(long_long_int) << std::endl;
     return 0;
 }

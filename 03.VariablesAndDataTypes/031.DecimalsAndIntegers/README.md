@@ -8,3 +8,10 @@
 - short keyword modifier allocates 2 bytes of RAM for int instead of 4. Can be used with signed or unsigned ints
 - long keyword modifier allocates 4 OR 8 bytes of RAM for signed or unsigned ints depending on value
 - long long keyword modifier allocates 8 bytes (64 bits) or RAM for signed or unsigned ints
+
+### Fractions/Decimal Point Numbers
+- 3 types
+- float, double, long double
+- float = 4 bytes of memory and is precise to 7 places of decimal
+- double = 8 bytes of memory and is precise to 15 places of decimal and is the recommended default type for fractional numbers
+- long double = 12 bytes of memory
