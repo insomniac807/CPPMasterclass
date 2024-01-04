@@ -33,7 +33,7 @@ int main(){
     int f {2};
     int g {5};
 
-    result = a + b * c -d/e -f + g; // solves to 30
+    result = a + b * c -d/e -f + g;
     /*
         according to c++ operator precendence table the above calculation will be solved by all compilers as follows
         6 + 3 * 8 -9/3 -2 + 5
