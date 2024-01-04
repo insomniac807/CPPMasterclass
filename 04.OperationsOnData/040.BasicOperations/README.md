@@ -18,3 +18,10 @@
 - Pretty straightforward. All comparison operators
 - less than, greater than, less than OR equal to, greater than OR equal to, equal to, not equal to
 - <, >, <=, >=, ==, !=
+
+### Logical Operatiors
+- AND, OR, NOT
+- &&, ||, !
+- AND : both sides must be true
+- OR : either side must be true
+- NOT : toggle true

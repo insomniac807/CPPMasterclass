@@ -102,5 +102,18 @@ int main(){
     std::cout << "x == y : " << (x==y) << std::endl;
     std::cout << "x != y : " << (x!=y) << std::endl;
     std::cout << "--------------------" << std::endl;
+
+
+    /* ########## Logical Operators ########## */
+    bool b1 {true};
+    bool b2 {false};
+    std::cout << "--------------------" << std::endl;
+    std::cout << "b1 : " << b1 << std::endl;
+    std::cout << "b2 : " << b2 << std::endl;
+    std::cout << "b1 AND b2 : " << (b1 && b2) << std::endl;
+    std::cout << "b1 OR b2 : " << (b1 || b2) << std::endl;
+    std::cout << "NOT b1 : " << (!b1) << std::endl;
+    std::cout << "NOT b2 : " << (!b2) << std::endl;
+    std::cout << "--------------------" << std::endl;
     return 0;
 }
