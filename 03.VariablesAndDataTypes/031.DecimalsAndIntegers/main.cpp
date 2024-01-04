@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip> // explained in more detail later in the course but for this program ref line 100
 
 int main(){
 
@@ -85,6 +86,31 @@ int main(){
 
 
     /* ########## Decimal Point Numbers ########## */
+
+    float f {1.12345678901234567890f}; // precision : 7
+    double d {1.12345678901234567890}; // precision : 15
+    long double ld {1.12345678901234567890L}; // precision : >= 15
+    double fd {123456789.0f}; // because of f delimiter at end of number double gets converted to floating point number. loss of precision
+    long double ld2 {1.1234567890123456789}; // because of lack of delimiter L, long double gets converted back to double. possible loss of precision
+    std::cout << "\n------------------------------------\n";
+    //Print out the sizes
+    std::cout << "sizeof float : " << sizeof(float) << std::endl;
+    std::cout << "sizeof double : " << sizeof(double) << std::endl;
+    std::cout << "sizeof long double : " << sizeof(long double) << std::endl;
+    std::cout << "\n------------------------------------\n";
+    //Precision
+    /*
+        Control the precision from std::cout. 
+        Doesn't control accuracy, only how many places of decimal are printed. 
+        Accuracy determined by data type
+    */
+    std::cout << std::setprecision(20); // 
+    std::cout << "float f : " << f << " : loss of precision after 7 decimal bits" << std::endl;
+    std::cout << "double d : " << d << " : loss of precision after 15 decimal bits" << std::endl;
+    std::cout << "long double ld : " << ld << " : precision determined by compiler but at least precise up to 15 decimal bits" << std::endl;
+    std::cout << "double fd : " << fd << " : truncated to floating point acccuracy because of f delimiter in assignment" << std::endl;
+    std::cout << "long double ld2 : " << ld2 << " : truncated to double accuracy because missing L delimiter in assignment" << std::endl;
+    std::cout << "\n------------------------------------\n";
 
     /*
         We can use scientific notation to represent very large or very small numbers in c++
