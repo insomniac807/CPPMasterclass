@@ -69,5 +69,26 @@ int main(){
     */
     std::cout << "(a + b) * c -d/(e -f) + g = " << result << std::endl; 
     std::cout << "--------------------" << std::endl;
+
+    /* ########## Prefix & Postfix Incrememnt & Decrement ######### */
+    int value {5};
+    std::cout << "Postfix increment-> value sent to stream is: " << value++ << std::endl;
+    std::cout << "After last output stream value has been incremented to : " << value << std::endl; 
+    std::cout << "--------------------" << std::endl;
+    value = 5; // reset value
+    std::cout << "Postfix decrement-> value sent to stream is: " << value-- << std::endl;
+    std::cout << "After last output stream value has been decremented to : " << value << std::endl; 
+    std::cout << "--------------------" << std::endl;
+    value = 5;
+    std::cout << "value is : " << value << std::endl;
+    std::cout << "Prefix increment-> value sent to stream is: " << ++value << std::endl; 
+    std::cout << "--------------------" << std::endl;
+    value = 5; // reset value
+    std::cout << "value is : " << value << std::endl;
+    std::cout << "Prefix decrement-> value sent to stream is: " << --value << std::endl;
+    std::cout << "--------------------" << std::endl;
+
+    /* ######### Relational Operators ########## */
+    std::cout << "--------------------" << std::endl;
     return 0;
 }
