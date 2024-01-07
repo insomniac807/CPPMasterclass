@@ -25,3 +25,5 @@
 - AND : both sides must be true
 - OR : either side must be true
 - NOT : toggle true
+
+### [output formatting](https://en.cppreference.com/w/cpp/header/iomanip)
