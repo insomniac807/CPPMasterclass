@@ -26,4 +26,6 @@
 - OR : either side must be true
 - NOT : toggle true
 
-### [output formatting](https://en.cppreference.com/w/cpp/io/manip)
+### Misc 
+- [output formatting](https://en.cppreference.com/w/cpp/io/manip)
+- [numeric limits](https://en.cppreference.com/w/cpp/types/numeric_limits)
