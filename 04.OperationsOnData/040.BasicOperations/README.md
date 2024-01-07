@@ -29,3 +29,4 @@
 ### Misc 
 - [output formatting](https://en.cppreference.com/w/cpp/io/manip)
 - [numeric limits](https://en.cppreference.com/w/cpp/types/numeric_limits)
+- [common math functions {math.h header file}](https://en.cppreference.com/w/cpp/header/cmath)
