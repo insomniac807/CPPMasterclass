@@ -8,3 +8,4 @@
 - I.e. after left shift we have the number 0100, and we now perform a rightwise bitshift, the resulting number will be 0010  
 - In sequence this looks like:
 - - 1010 << 0100 >> 0010
+- N.B. **BITSHIFTING ONLY SUPPORTED FOR INTEGRAL TYPES (I.E NOT FLOATING POINT NUMBERS)**
