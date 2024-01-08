@@ -20,3 +20,5 @@
 - Bitshift right divides by 2^n (i.e. a >> n = a / 2^n)
 - Bitshift left multiplies by 2^n (i.e. a << n = a * 2^n)
 - N.B. **THIS RULE BREAKS WHERE A 1 BIT GETS THROWN OFF EITHER THE LEFT OR RIGHT SIDE OF THE BINARY NUMBER**
+- [More info on bitshift](https://stackoverflow.com/a/141873/9494364)
+- [why use bitshifting operations?](https://www.codequoi.com/en/binary-010-uses-of-bit-shifting-and-bitwise-operations/#why_use_bit_shifting_and_bitwise_operations)
