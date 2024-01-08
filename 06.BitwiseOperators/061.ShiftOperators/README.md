@@ -19,4 +19,4 @@
 - The rule to determine the resulting integral after a bitshift operation is a follows
 - Bitshift right divides by 2^n (i.e. a >> n = a / 2^n)
 - Bitshift left multiplies by 2^n (i.e. a << n = a * 2^n)
-- N.B. **This rule breaks where a 1 bit gets thrown off either the left or right side of the binary number**
+- N.B. **THIS RULE BREAKS WHERE A 1 BIT GETS THROWN OFF EITHER THE LEFT OR RIGHT SIDE OF THE BINARY NUMBER**
