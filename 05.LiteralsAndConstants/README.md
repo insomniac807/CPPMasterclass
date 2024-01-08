@@ -11,3 +11,7 @@
 ### constexpr
 
 - A constant which has the POTENTIAL to be evaluated at compile time
+
+### constinit
+
+- A Variable that should be initialised with either a const or a literal at compile time
