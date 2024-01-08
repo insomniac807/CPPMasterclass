@@ -15,3 +15,8 @@
 - We can bitshift more than 1 place at a time
 - E.g. {int num {10}; auto result = num << 1;} is equally as valid syntactically as {int num {10}; auto result = num << 5;} 
 - The former bitshifts 1 position to the left, and the latter 5 positions to the left
+
+- The rule to determine the resulting integral after a bitshift operation is a follows
+- Bitshift right divides by 2^n
+- Bitshift left multiplies by 2^n
+- N.B. **This rule breaks where a 1 bit gets thrown off either the left or right side of the binary number**
