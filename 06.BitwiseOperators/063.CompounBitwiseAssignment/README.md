@@ -4,4 +4,4 @@
 - Similar to arithmetic operators like +=, *= etc
 - <<=, >>=, &=, |=, ^=, ~=
 - E.G. int a {0b0000000011110000}; a <<= 4; 
-- a is now 0b0000111100000000
+- a is now  0b0000111100000000
